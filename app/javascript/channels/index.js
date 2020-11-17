@@ -3,3 +3,12 @@
 
 const channels = require.context('.', true, /_channel\.js$/)
 channels.keys().forEach(channels)
+
+const deleteButton = document.querySelector('.fa-trash')
+deleteButton.addEventListener('click' (event) => {
+  alert("Are you sure?");
+})
+
+console.log(deleteButton)
+
+
